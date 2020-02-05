@@ -22,11 +22,6 @@ ajv@^6.5.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-amanda@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/amanda/-/amanda-1.0.1.tgz#0929f3ce0dcd4a74d28d054e2b2e712cbc8ce582"
-  integrity sha512-DJZMA1t7skqQgH5yq4NxBfqun+jDQUSYJRYGg+AqnKc3I0/hs8eX3PDdlfgiADkHgo4HlesD5QuoqFcCYA280Q==
-
 ansi-escapes@^4.2.1:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-4.2.1.tgz#4dccdb846c3eee10f6d64dea66273eab90c37228"
@@ -356,10 +351,10 @@ dredd-transactions@9.1.1:
     fury-adapter-swagger "0.28.1"
     uri-template "1.0.1"
 
-dredd@12.2.1:
-  version "12.2.1"
-  resolved "https://registry.yarnpkg.com/dredd/-/dredd-12.2.1.tgz#45912d62399424da116120390d4acf089df65cbd"
-  integrity sha512-Y86KdB713tTTVwOPhoe4AJLmyJP+b9bT1EmxeIxcrB9QrD+Hg7sdH8z5cZREY2JQ9bAzE+AiHaK7ZQ0jLVfzGg==
+dredd@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/dredd/-/dredd-13.0.0.tgz#ed1d9ed1b5a4f06f0e7d533afa841fe371b67ef9"
+  integrity sha512-nPqIeEiZGy8cInfyufUjfGe0NAs0iyPrLaCI7fCDEZeKNwJaNNu7hC5LXIqX7JhvfznhFF9dekU4qC5uIzLpig==
   dependencies:
     async "3.1.0"
     caseless "0.12.0"
@@ -367,7 +362,7 @@ dredd@12.2.1:
     clone "2.1.2"
     cross-spawn "7.0.0"
     dredd-transactions "9.1.1"
-    gavel "^8.2.0"
+    gavel "^9.1.1"
     glob "7.1.5"
     html "1.0.0"
     htmlencode "0.0.4"
@@ -540,13 +535,12 @@ fury@3.0.0-beta.13:
   dependencies:
     api-elements "^0.2.3"
 
-gavel@^8.2.0:
-  version "8.2.3"
-  resolved "https://registry.yarnpkg.com/gavel/-/gavel-8.2.3.tgz#1576ed35b566816ffde1a8081be6b9c995f0eb04"
-  integrity sha512-+l4wDX6QabJ7FqjsjcPYHQslPlByfqn8/UGIp5altB3RKWg2lxkdwS+bPmGRyu2bRmr52mH3OCxvx7y7/2fOaw==
+gavel@^9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/gavel/-/gavel-9.1.1.tgz#4107fa9a21b78ef6d9ee0e6381030829620986f6"
+  integrity sha512-cCNY+LzQsW5uFLUABFreV+7lI8R/6FGpMpKl7eY/SltlDYU1Mdg+xFHgYITX4f1tgJJ8g07yVHW8jGao7IHlUg==
   dependencies:
     ajv "6.10.2"
-    amanda "1.0.1"
     caseless "0.12.0"
     clone "2.1.2"
     commander "3.0.2"
